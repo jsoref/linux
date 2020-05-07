@@ -1771,7 +1771,7 @@ union bpf_attr {
  * 		which the option resides and the name *optname* of the option
  * 		must be specified, see **getsockopt(2)** for more information.
  * 		The retrieved value is stored in the structure pointed by
- * 		*opval* and of length *optlen*.
+ * 		*optval* and of length *optlen*.
  *
  * 		This helper actually implements a subset of **getsockopt()**.
  * 		It supports the following *level*\ s:
